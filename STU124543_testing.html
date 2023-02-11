@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+    <link rel="icon" type="image/x-icon" href="/images/logo_icon.ico">
+
+    <style>
+        body {background-color: antiquewhite;}
+        h1 {text-align: center;}
+        h1,h2 { color: rgb(68, 162, 230);}
+        ul { list-style-type: square;}
+    </style>
+</head>
+<body>
+    <h1>
+        Task 3 : Testing<br>
+    </h1>
+
+    <p>
+        Once the website is ready, the next part of web authoring is testing. 
+        To ensure that website meets all the standards, is compatible with as many browsers as possible and can be accessed on as many devices as possible,
+        the following tests were performed, and to eliminate all the errors website was modified accordingly.
+           
+    </p>
+    <ul>
+
+        <li>
+            <h2>w3c Html Validation</h2>
+                <ul style="list-style: circle;">
+                    <li>
+                        <p>
+                            - <b>/index.html</b> was tested using Html validator and it identified that  &lt;!DOCTYPE html&gt; was missing and trailing slash was pressent on many void elements.
+                            </br>- To eliminate the errors, warnings and unnecessary syntax, &lt;!DOCTYPE html&gt; was added at the beginning of html document and trailing slash was removed from void elements.
+                            </br>- Performing Html validation test after html file was corrected, confirmed that /index.html contains no errors, warnings or unnecessary syntax. 
+                        </p>
+                        <figure>
+                            <figcaption style="font-weight: bold; font-size: 24px; ">/index.html - Before error correction</figcaption>
+                            <img src="images/index_w3c_validation_before.png" alt="html Validation picture">
+                        </figure>   
+                        <figure>
+                            <figcaption style="font-weight: bold; font-size: 24px; ">/index.html - After error correction</figcaption>
+                            <img src="images/index_w3c_validation_after.png" alt="html Validation picture">
+                        </figure>
+                    </li>
+                    
+                    <li>
+                        <p>
+                            - <b>/discover.html</b> was tested using Html validator and it identified that  &lt;!DOCTYPE html&gt; was missing, a stray end tag for a div element was pressent,the frameborder attribute on the iframe element was pressent but it is obsolete, and trailing slash was pressent on many void elements.
+                            </br>- To eliminate the errors, warnings and unnecessary syntax, &lt;!DOCTYPE html&gt; was added at the beginning of html document,stray end tag for a div element was deleted, the frameborder attribute on the iframe element was moved from html file to css file and replaced with border attribute,and trailing slash was removed from void elements.
+                            </br>- Performing Html validation test after html file was corrected, confirmed that /discover.html contains no errors, warnings or unnecessary syntax. 
+                        </p>
+                        <figure>
+                            <figcaption style="font-weight: bold; font-size: 24px; ">/discover.html - Before error correction</figcaption>
+                            <img src="images/discover_w3c_validation_before.png" alt="html Validation picture">
+                        </figure>   
+                        <figure>
+                            <figcaption style="font-weight: bold; font-size: 24px; ">/discover.html - After error correction</figcaption>
+                            <img src="images/discover_w3c_validation_after.png" alt="html Validation picture">
+                        </figure>
+                    </li>
+                    
+                    <li>
+                        <p>
+                            - <b>/login_register.html</b> was tested using Html validator and it identified that  &lt;!DOCTYPE html&gt; was missing, trailing slash was pressent on many void elements, and there were ID duplicates.
+                            </br>- To eliminate the errors, warnings and unnecessary syntax, &lt;!DOCTYPE html&gt; was added at the beginning of html document,trailing slash was removed from void elements and the duplicate ID's were removed and added to elements as a Class rather that an ID.
+                            </br>- Performing Html validation test after html file was corrected, confirmed that /login_register.html contains no errors, warnings or unnecessary syntax. 
+                        </p>
+                        <figure>
+                            <figcaption style="font-weight: bold; font-size: 24px; ">/login_register.html - Before error correction</figcaption>
+                            <img src="images/login_register_w3c_validation_before.png" alt="html Validation picture">
+                        </figure>   
+                        <figure>
+                            <figcaption style="font-weight: bold; font-size: 24px; ">/login_register.html - After error correction</figcaption>
+                            <img src="images/login_register_w3c_validation_after.png" alt="html Validation picture">
+                        </figure>
+                    </li>
+                    
+                    <li>
+                        <p>
+                            - <b>/museums.html</b> was tested using Html validator and it identified that  &lt;!DOCTYPE html&gt; was missing, trailing slash was pressent on many void elements,there were ID duplicates, bad values for ID attributes, not allowed actions, etc.
+                            </br>- To eliminate the errors, warnings and unnecessary syntax, &lt;!DOCTYPE html&gt; was added at the beginning of html document,trailing slash was removed from void elements, the duplicate ID's were removed and added to elements as a Class rather that an ID, bad values for ID atributes were corrected, etc.
+                            </br>- Performing Html validation test after html file was corrected, confirmed that /museums.html contains no errors, warnings or unnecessary syntax. 
+                        </p>
+                        <figure>
+                            <figcaption style="font-weight: bold; font-size: 24px; ">/museums.html - Before error correction</figcaption>
+                            <img src="images/museums_w3c_validation_before.png" alt="html Validation picture">
+                        </figure>   
+                        <figure>
+                            <figcaption style="font-weight: bold; font-size: 24px; ">/museums.html - After error correction</figcaption>
+                            <img src="images/museums_w3c_validation_after.png" alt="html Validation picture">
+                        </figure>
+                    </li>
+                    
+                    <li>
+                        <p>
+                            - <b>/activities.html</b> was tested using Html validator and it identified that  &lt;!DOCTYPE html&gt; was missing, trailing slash was pressent on many void elements,there were ID duplicates, bad values for ID attributes, not allowed actions, etc.
+                            </br>- To eliminate the errors, warnings and unnecessary syntax, &lt;!DOCTYPE html&gt; was added at the beginning of html document,trailing slash was removed from void elements, the duplicate ID's were removed and added to elements as a Class rather that an ID, bad values for ID atributes were corrected, etc.
+                            </br>- Performing Html validation test after html file was corrected, confirmed that /activities.html contains no errors, warnings or unnecessary syntax. 
+                        </p>
+                        <figure>
+                            <figcaption style="font-weight: bold; font-size: 24px; ">/activities.html - Before error correction</figcaption>
+                            <img src="images/activities_w3c_validation_before.png" alt="html Validation picture">
+                        </figure>   
+                        <figure>
+                            <figcaption style="font-weight: bold; font-size: 24px; ">/activities.html - After error correction</figcaption>
+                            <img src="images/activities_w3c_validation_after.png" alt="html Validation picture">
+                        </figure>
+                    </li>
+                    
+                    <li>
+                        <p>
+                            - <b>/clubs.html</b> was tested using Html validator and it identified that  &lt;!DOCTYPE html&gt; was missing, trailing slash was pressent on many void elements,there were ID duplicates, bad values for ID attributes, not allowed actions, etc.
+                            </br>- To eliminate the errors, warnings and unnecessary syntax, &lt;!DOCTYPE html&gt; was added at the beginning of html document,trailing slash was removed from void elements, the duplicate ID's were removed and added to elements as a Class rather that an ID, bad values for ID atributes were corrected, etc.
+                            </br>- Performing Html validation test after html file was corrected, confirmed that /clubs.html contains no errors, warnings or unnecessary syntax. 
+                        </p>
+                        <figure>
+                            <figcaption style="font-weight: bold; font-size: 24px; ">/clubs.html - Before error correction</figcaption>
+                            <img src="images/clubs_w3c_validation_before.png" alt="html Validation picture">
+                        </figure>   
+                        <figure>
+                            <figcaption style="font-weight: bold; font-size: 24px; ">/clubs.html - After error correction</figcaption>
+                            <img src="images/clubs_w3c_validation_after.png" alt="html Validation picture">
+                        </figure>
+                    </li> 
+                    
+                    <li>
+                        <p>
+                            - <b>/pubs.html</b> was tested using Html validator and it identified that  &lt;!DOCTYPE html&gt; was missing, trailing slash was pressent on many void elements,there were ID duplicates, bad values for ID attributes, not allowed actions, etc.
+                            </br>- To eliminate the errors, warnings and unnecessary syntax, &lt;!DOCTYPE html&gt; was added at the beginning of html document,trailing slash was removed from void elements, the duplicate ID's were removed and added to elements as a Class rather that an ID, bad values for ID atributes were corrected, etc.
+                            </br>- Performing Html validation test after html file was corrected, confirmed that /pubs.html contains no errors, warnings or unnecessary syntax. 
+                        </p>
+                        <figure>
+                            <figcaption style="font-weight: bold; font-size: 24px; ">/pubs.html - Before error correction</figcaption>
+                            <img src="images/pubs_w3c_validation_before.png" alt="html Validation picture">
+                        </figure>   
+                        <figure>
+                            <figcaption style="font-weight: bold; font-size: 24px; ">/pubs.html - After error correction</figcaption>
+                            <img src="images/pubs_w3c_validation_after.png" alt="html Validation picture">
+                        </figure>
+                    </li> 
+                    
+                    <li>
+                        <p>
+                            - <b>/restaurants.html</b> was tested using Html validator and it identified that  &lt;!DOCTYPE html&gt; was missing, trailing slash was pressent on many void elements,there were ID duplicates, bad values for ID attributes, not allowed actions, etc.
+                            </br>- To eliminate the errors, warnings and unnecessary syntax, &lt;!DOCTYPE html&gt; was added at the beginning of html document,trailing slash was removed from void elements, the duplicate ID's were removed and added to elements as a Class rather that an ID, bad values for ID atributes were corrected, etc.
+                            </br>- Performing Html validation test after html file was corrected, confirmed that /restaurants.html contains no errors, warnings or unnecessary syntax. 
+                        </p>
+                        <figure>
+                            <figcaption style="font-weight: bold; font-size: 24px; ">/restaurants.html - Before error correction</figcaption>
+                            <img src="images/restaurants_w3c_validation_before.png" alt="html Validation picture">
+                        </figure>   
+                        <figure>
+                            <figcaption style="font-weight: bold; font-size: 24px; ">/restaurants.html - After error correction</figcaption>
+                            <img src="images/restaurants_w3c_validation_after.png" alt="html Validation picture">
+                        </figure>
+                    </li> 
+                    
+                    <li>
+                        <p>
+                            - <b>/shopping.html</b> was tested using Html validator and it identified that  &lt;!DOCTYPE html&gt; was missing, trailing slash was pressent on many void elements,there were ID duplicates, bad values for ID attributes, not allowed actions, etc.
+                            </br>- To eliminate the errors, warnings and unnecessary syntax, &lt;!DOCTYPE html&gt; was added at the beginning of html document,trailing slash was removed from void elements, the duplicate ID's were removed and added to elements as a Class rather that an ID, bad values for ID atributes were corrected, etc.
+                            </br>- Performing Html validation test after html file was corrected, confirmed that /shopping.html contains no errors, warnings or unnecessary syntax. 
+                        </p>
+                        <figure>
+                            <figcaption style="font-weight: bold; font-size: 24px; ">/shopping.html - Before error correction</figcaption>
+                            <img src="images/shopping_w3c_validation_before.png" alt="html Validation picture">
+                        </figure>   
+                        <figure>
+                            <figcaption style="font-weight: bold; font-size: 24px; ">/shopping.html - After error correction</figcaption>
+                            <img src="images/shopping_w3c_validation_after.png" alt="html Validation picture">
+                        </figure>
+                    </li>  
+                    
+                    <li>
+                        <p>
+                            - <b>/404_alternative.html</b> was tested using Html validator and it identified that  &lt;!DOCTYPE html&gt; was missing and trailing slash was pressent on many void elements.
+                            </br>- To eliminate the errors, warnings and unnecessary syntax, &lt;!DOCTYPE html&gt; was added at the beginning of html document and trailing slash was removed from void elements.
+                            </br>- Performing Html validation test after html file was corrected, confirmed that /404_alternative.html contains no errors, warnings or unnecessary syntax. 
+                        </p>
+                        <figure>
+                            <figcaption style="font-weight: bold; font-size: 24px; ">/404_alternative.html - Before error correction</figcaption>
+                            <img src="images/404_alternative_w3c_validation_before.png" alt="html Validation picture">
+                        </figure>   
+                        <figure>
+                            <figcaption style="font-weight: bold; font-size: 24px; ">/404_alternative.html - After error correction</figcaption>
+                            <img src="images/404_alternative_w3c_validation_after.png" alt="html Validation picture">
+                        </figure>
+                    </li>    
+
+
+
+
+
+
+
+
+
+
+                </ul>
+        </li>
+
+        <li>
+            <h2>w3c css Validation</h2>
+                <ul style="list-style: circle;">
+                    <li>
+                        <p>
+                            - <b>/main.css</b> was tested using CSS validator and it identified that there was an error related to padding-bottom value.
+                            </br>- Because this line was not working correctly and it was not affecting any elements, it was simply deleted.
+                            </br>- Performing CSS validation test after CSS file was corrected, confirmed that /main.css contains no errors, warnings or unnecessary syntax. 
+                        </p>
+                        <figure>
+                            <figcaption style="font-weight: bold; font-size: 24px; ">/404_alternative.html - Before error correction</figcaption>
+                            <img src="images/main_w3c_validation_before.png" alt="html Validation picture">
+                        </figure>   
+                        <figure>
+                            <figcaption style="font-weight: bold; font-size: 24px; ">/404_alternative.html - After error correction</figcaption>
+                            <img src="images/main_w3c_validation_after.png" alt="html Validation picture">
+                        </figure>
+
+                    </li>
+                </ul>
+
+        </li>
+
+        <li>
+            <h2>Browser compatibility</h2>
+                        <p>
+                            To confirm that website is compatible with different browsers <b>/index.html</b> and <b>/activities.html</b> were 
+                            tested in Chrome, Edge and Firefox.
+                        </p>
+                        <figure>
+                            <figcaption style="font-weight: bold; font-size: 24px; ">Chrome - /index.html</figcaption>
+                            <img src="images/index.html_chrome.png" alt="html Validation picture">
+                        </figure>   
+                        <figure>
+                            <figcaption style="font-weight: bold; font-size: 24px; ">Chrome - /activities.html</figcaption>
+                            <img src="images/activities.html_chrome.png" alt="html Validation picture">
+                        </figure>
+                        <figure>
+                            <figcaption style="font-weight: bold; font-size: 24px; ">Edge - /index.html</figcaption>
+                            <img src="images/index.html_edge.png" alt="html Validation picture">
+                        </figure>   
+                        <figure>
+                            <figcaption style="font-weight: bold; font-size: 24px; ">Edge - /activities.html</figcaption>
+                            <img src="images/activities.html_edge.png" alt="html Validation picture">
+                        </figure>
+                        <figure>
+                            <figcaption style="font-weight: bold; font-size: 24px; ">Firefox - /index.html</figcaption>
+                            <img src="images/index.html_firefox.png" alt="html Validation picture">
+                        </figure>   
+                        <figure>
+                            <figcaption style="font-weight: bold; font-size: 24px; ">Firefox - /activities.html</figcaption>
+                            <img src="images/activities.html_firefox.png" alt="html Validation picture">
+                        </figure>
+        </li>
+
+        <li>
+            <h2>Devices compatibility</h2>
+                        <p>
+                            Using Chrome Developer Tools, <b>/index.html</b> and <b>/activities.html</b> were tested to confirm that website displays 
+                            correctly on different mobile devices. <br>
+                            As well, to make it easier for users to use the website from mobile devices, when the width of the device is less that specified in the <b>/main.css</b> file, 
+                            page layout slightly changes. <br>
+                            Top navigation bar transforms in a menu, and sidebar transforms in a menu. 
+                        </p>
+                        <figure>
+                            <figcaption style="font-weight: bold; font-size: 24px; ">/index.html - iPhone SE</figcaption>
+                            <img src="images/index.html_iphone_se.png" alt="html Validation picture">
+                        </figure> 
+                        <figure>
+                            <figcaption style="font-weight: bold; font-size: 24px; ">/index.html - iPhone SE - Top navigation menu</figcaption>
+                            <img src="images/index.html_iphone_se_2.png" alt="html Validation picture">
+                        </figure>   
+                        <figure>
+                            <figcaption style="font-weight: bold; font-size: 24px; ">/index.html - iPhone SE - Sidebar</figcaption>
+                            <img src="images/index.html_iphone_se_3.png" alt="html Validation picture">
+                        </figure>
+                        <figure>
+                            <figcaption style="font-weight: bold; font-size: 24px; ">/activities.html - iPhone SE</figcaption>
+                            <img src="images/activities.html_iphone_se.png" alt="html Validation picture">
+                        </figure>
+
+                        <figure>
+                            <figcaption style="font-weight: bold; font-size: 24px; ">/index.html - iPhone XR</figcaption>
+                            <img src="images/index.html_iphone_xr.png" alt="html Validation picture">
+                        </figure> 
+                        <figure>
+                            <figcaption style="font-weight: bold; font-size: 24px; ">/index.html - iPhone XR - Top navigation menu</figcaption>
+                            <img src="images/index.html_iphone_xr_2.png" alt="html Validation picture">
+                        </figure>   
+                        <figure>
+                            <figcaption style="font-weight: bold; font-size: 24px; ">/index.html - iPhone XR - Sidebar</figcaption>
+                            <img src="images/index.html_iphone_xr_3.png" alt="html Validation picture">
+                        </figure>
+  
+                        <figure>
+                            <figcaption style="font-weight: bold; font-size: 24px; ">/activities.html - iPhone XR</figcaption>
+                            <img src="images/activities.html_iphone_xr.png" alt="html Validation picture">
+                        </figure>
+
+
+        </li>
+
+        <h2>Accessibility testing </h2>
+        <ul style="list-style: circle;">
+            <p>
+               <b>Chrome browser and Wave extension were used to test Accessibility.</b>
+            </p>
+
+            <li>
+                <p>
+                    Performing Accessibility test on <b>/index.html</b> identified some errors, missing form label, empty links and missing alternative text for images. <br>
+                    To correct the errors, missing form label was added, empty links were deleted and alternative text for pictures was added.
+                    As well testing confirmed that there are no contrast errors.
+                </p>
+                <figure>
+                    <figcaption style="font-weight: bold; font-size: 24px; ">/index.html - Before error correction</figcaption>
+                    <img src="images/index_wave_before.png" alt="html Validation picture">
+                </figure>   
+                <figure>
+                    <figcaption style="font-weight: bold; font-size: 24px; ">/index.html - After error correction</figcaption>
+                    <img src="images/index_wave_after.png" alt="html Validation picture">
+                </figure>
+                <figure>
+                    <figcaption style="font-weight: bold; font-size: 24px; ">/index.html - Contrast</figcaption>
+                    <img src="images/index_wave_contrast.png" alt="html Validation picture">
+                </figure>
+            </li>
+
+            <li>
+                <p>
+                    Performing Accessibility test on <b>/discover.html</b> identified some errors, missing form label, empty links and missing alternative text for images. <br>
+                    To correct the errors, missing form label was added, empty links were deleted and alternative text for pictures was added.
+                    As well testing confirmed that there are no contrast errors.
+                </p>
+                <figure>
+                    <figcaption style="font-weight: bold; font-size: 24px; ">/discover.html - Before error correction</figcaption>
+                    <img src="images/discover _wave_before.png" alt="html Validation picture">
+                </figure>   
+                <figure>
+                    <figcaption style="font-weight: bold; font-size: 24px; ">/discover.html - After error correction</figcaption>
+                    <img src="images/discover _wave_after.png" alt="html Validation picture">
+                </figure>
+                <figure>
+                    <figcaption style="font-weight: bold; font-size: 24px; ">/discover.html - Contrast</figcaption>
+                    <img src="images/discover _wave_contrast.png" alt="html Validation picture">
+                </figure>
+            </li>
+
+        </ul>
+
+    </ul>
+
+
+
+    
+</body>
+</html>
